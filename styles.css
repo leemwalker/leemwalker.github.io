@@ -50,5 +50,6 @@ ul {
 }
 body {
   background-color: lightgray;
+  background-image: linear-gradient(#a0a7b7, black);
   font: 12px arial;
 }
