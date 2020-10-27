@@ -2,12 +2,11 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  align-items: center;
+  text-align: center;
   align-content: space-around;
-}
-.header-image {
-  width: 100%;
-  height: auto;
+  background-image: url("header00.png");
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 a:link, a:visited {
   text-decoration: none;
@@ -17,21 +16,39 @@ a:hover, a:active{
   color: black;
   text-decoration: underline; 
 }
-.header-text {
-  position: absolute;
-  text-align: center;
-}
 .skills {
+  margin: 20px;
 }
 .experience {
+  margin: 20px;
 }
 .hobbies {
+  margin: 20px;
 }
 .education {
+  margin: 20px;
 }
 .container {
-  display: grid;
+  background-color: white;
+  max-width: 800px;
+  padding-bottom: 25px;
+  margin: auto;
+}
+.skill-list {
+  column-fill: balance;
+  column-count: 4;
+  display: inline-block;
+  width: 100%;
+}
+.hobby-list {
+  column-fill: balance;
+  column-count: 3;
+  width: 100%;
+}
+ul {
+  margin-top: 0px;
 }
 body {
-  font: 18px arial;
+  background-color: lightgray;
+  font: 12px arial;
 }
